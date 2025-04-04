@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Power BI Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f9;
+        }
+        iframe {
+            width: 90%; /* Adjust for responsiveness */
+            max-width: 1200px; /* Max width for laptop view */
+            height: 700px; /* Height similar to laptop screens */
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <iframe 
+        title="Power BI Report" 
+        src="{{ power_bi_url }}" 
+        allowfullscreen="true">
+    </iframe>
+</body>
+</html>
